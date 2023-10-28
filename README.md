@@ -12,7 +12,7 @@ The chatbot generates responses based on the input given by the user.
 Utilizes a custom dataset of medical information for generating accurate and contextually relevant responses.
 
 # Requirements
-Python 3.x
+Python 3.11
 Dependencies listed in requirements.txt
 
 # Contributing
