@@ -1,0 +1,5 @@
+pip install transformers
+pip install torch
+pip install -U PyPDF2
+install pdfreader
+pip install python-docx
