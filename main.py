@@ -43,7 +43,7 @@ def read_documents_from_directory(directory):
     return combined_text
 
 #Load data:
-data_directory = r"C:\Users\edito\OneDrive\Documents\MEDUCOL Stroke Dataset"
+data_directory = r"C:\Users\Dataset"
 data_files = read_documents_from_directory(data_directory)
 #data_files = re.sub(r'\n+', '\n', data_files).strip()
 with open("text_data", "w") as f:
@@ -175,7 +175,7 @@ def main():
     train_file_path="train.txt"
     val_file_path="val.txt"
     model_name="gpt2"
-    output_dir=r"C:\Users\edito\OneDrive\Documents\Output trained model"
+    output_dir=r"C:\Users\Output trained model"
     overwrite_output_dir= True
     per_device_train_batch_size=4
     per_device_val_batch_size=4
